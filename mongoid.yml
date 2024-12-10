@@ -1,0 +1,8 @@
+development:
+  clients:
+    default:
+      uri: "mongodb+srv://XXX:XXX@blagcluster.XXX.mongodb.net/quotes?retryWrites=true&w=majority&appName=BlagCluster"
+      options:
+        server_selection_timeout: 5
+  options:
+    log_level: :warn
